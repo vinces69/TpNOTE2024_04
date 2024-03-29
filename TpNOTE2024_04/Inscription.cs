@@ -16,5 +16,10 @@ namespace TpNOTE2024_04
         {
             InitializeComponent();
         }
+
+        private void btn_annuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
