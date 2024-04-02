@@ -32,5 +32,10 @@ namespace TpNOTE2024_04
             if (valider == DialogResult.Yes )           
                 this.Close();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            SousF.openChildForm(new ListesGroupes());
+        }
     }
 }
