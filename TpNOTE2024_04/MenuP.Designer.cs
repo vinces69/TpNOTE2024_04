@@ -48,6 +48,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -58,6 +59,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -71,9 +73,9 @@
             // 
             // pnl_affichage
             // 
-            this.pnl_affichage.Location = new System.Drawing.Point(235, 55);
+            this.pnl_affichage.Location = new System.Drawing.Point(226, 55);
             this.pnl_affichage.Name = "pnl_affichage";
-            this.pnl_affichage.Size = new System.Drawing.Size(928, 565);
+            this.pnl_affichage.Size = new System.Drawing.Size(937, 565);
             this.pnl_affichage.TabIndex = 3;
             // 
             // lbl_titreMenu

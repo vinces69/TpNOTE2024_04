@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PenduV2.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,22 @@ namespace TpNOTE2024_04
 {
     public partial class MenuP : Form
     {
+        SF SousF;
         public MenuP()
         {
             InitializeComponent();
             pnl_titre.SendToBack();
+            SousF = new SF(pnl_affichage);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            SousF.openChildForm(new ListesAlbums());
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
