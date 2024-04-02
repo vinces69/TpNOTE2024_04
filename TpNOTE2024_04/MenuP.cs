@@ -28,7 +28,9 @@ namespace TpNOTE2024_04
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult valider = MessageBox.Show("Voulez vous quitter l'application ?", "Quitter", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (valider == DialogResult.Yes )           
+                this.Close();
         }
     }
 }
