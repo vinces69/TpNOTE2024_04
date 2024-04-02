@@ -19,7 +19,15 @@ namespace TpNOTE2024_04
 
         private void btn_annuler_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Identification Id = new Identification();
+            Id.Show();
+            this.Hide();
+            
+        }
+
+        private void btn_valider_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
