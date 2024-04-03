@@ -46,7 +46,7 @@
             pb_Album.Image = Properties.Resources.ImageVynil;
             pb_Album.Location = new Point(-1, 196);
             pb_Album.Name = "pb_Album";
-            pb_Album.Size = new Size(228, 139);
+            pb_Album.Size = new Size(227, 139);
             pb_Album.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_Album.TabIndex = 0;
             pb_Album.TabStop = false;
@@ -57,7 +57,7 @@
             pb_Exit.Image = Properties.Resources.ImageFermer;
             pb_Exit.Location = new Point(1, 478);
             pb_Exit.Name = "pb_Exit";
-            pb_Exit.Size = new Size(228, 139);
+            pb_Exit.Size = new Size(226, 139);
             pb_Exit.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_Exit.TabIndex = 1;
             pb_Exit.TabStop = false;
@@ -68,7 +68,7 @@
             pb_Artistes.Image = Properties.Resources.ImageBand;
             pb_Artistes.Location = new Point(-1, 332);
             pb_Artistes.Name = "pb_Artistes";
-            pb_Artistes.Size = new Size(228, 139);
+            pb_Artistes.Size = new Size(227, 139);
             pb_Artistes.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_Artistes.TabIndex = 2;
             pb_Artistes.TabStop = false;
