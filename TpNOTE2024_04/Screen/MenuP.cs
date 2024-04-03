@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TpNOTE2024_04.Screen;
 
 namespace TpNOTE2024_04
 {
@@ -29,13 +30,18 @@ namespace TpNOTE2024_04
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             DialogResult valider = MessageBox.Show("Voulez vous quitter l'application ?", "Quitter", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (valider == DialogResult.Yes )           
+            if (valider == DialogResult.Yes)
                 this.Close();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             SousF.openChildForm(new ListesArtistes());
+        }
+
+        private void pb_Biblio_Click(object sender, EventArgs e)
+        {
+            SousF.openChildForm(new ListesBibliotheque());
         }
     }
 }
