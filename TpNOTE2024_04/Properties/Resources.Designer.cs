@@ -63,16 +63,6 @@ namespace TpNOTE2024_04.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FondEcran {
-            get {
-                object obj = ResourceManager.GetObject("FondEcran", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap ImageBand {
             get {
                 object obj = ResourceManager.GetObject("ImageBand", resourceCulture);

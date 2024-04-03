@@ -28,96 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pnl_affichage = new System.Windows.Forms.Panel();
-            this.lbl_titreMenu = new System.Windows.Forms.Label();
-            this.pnl_titre = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.SuspendLayout();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pnl_affichage = new Panel();
+            lbl_titreMenu = new Label();
+            pnl_titre = new Panel();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::TpNOTE2024_04.Properties.Resources.ImageVynil;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(228, 139);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            pictureBox1.Image = Properties.Resources.ImageVynil;
+            pictureBox1.Location = new Point(1, 55);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(228, 139);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::TpNOTE2024_04.Properties.Resources.ImageFermer;
-            this.pictureBox2.Location = new System.Drawing.Point(1, 345);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(228, 139);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            pictureBox2.Image = Properties.Resources.ImageFermer;
+            pictureBox2.Location = new Point(1, 345);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(228, 139);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 1;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::TpNOTE2024_04.Properties.Resources.ImageBand;
-            this.pictureBox3.Location = new System.Drawing.Point(1, 200);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(228, 139);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            pictureBox3.Image = Properties.Resources.ImageBand;
+            pictureBox3.Location = new Point(1, 200);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(228, 139);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 2;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pnl_affichage
             // 
-            this.pnl_affichage.Location = new System.Drawing.Point(226, 55);
-            this.pnl_affichage.Name = "pnl_affichage";
-            this.pnl_affichage.Size = new System.Drawing.Size(937, 565);
-            this.pnl_affichage.TabIndex = 3;
+            pnl_affichage.Location = new Point(226, 55);
+            pnl_affichage.Name = "pnl_affichage";
+            pnl_affichage.Size = new Size(937, 565);
+            pnl_affichage.TabIndex = 3;
             // 
             // lbl_titreMenu
             // 
-            this.lbl_titreMenu.AutoSize = true;
-            this.lbl_titreMenu.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_titreMenu.Location = new System.Drawing.Point(235, 9);
-            this.lbl_titreMenu.Name = "lbl_titreMenu";
-            this.lbl_titreMenu.Size = new System.Drawing.Size(223, 32);
-            this.lbl_titreMenu.TabIndex = 4;
-            this.lbl_titreMenu.Text = "Gestion des albums";
+            lbl_titreMenu.AutoSize = true;
+            lbl_titreMenu.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            lbl_titreMenu.Location = new Point(235, 9);
+            lbl_titreMenu.Name = "lbl_titreMenu";
+            lbl_titreMenu.Size = new Size(223, 32);
+            lbl_titreMenu.TabIndex = 4;
+            lbl_titreMenu.Text = "Gestion des albums";
             // 
             // pnl_titre
             // 
-            this.pnl_titre.BackColor = System.Drawing.Color.Firebrick;
-            this.pnl_titre.Location = new System.Drawing.Point(1, -1);
-            this.pnl_titre.Name = "pnl_titre";
-            this.pnl_titre.Size = new System.Drawing.Size(1162, 57);
-            this.pnl_titre.TabIndex = 5;
+            pnl_titre.BackColor = Color.Firebrick;
+            pnl_titre.Location = new Point(1, -1);
+            pnl_titre.Name = "pnl_titre";
+            pnl_titre.Size = new Size(1162, 57);
+            pnl_titre.TabIndex = 5;
             // 
             // MenuP
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1163, 618);
-            this.Controls.Add(this.pnl_titre);
-            this.Controls.Add(this.lbl_titreMenu);
-            this.Controls.Add(this.pnl_affichage);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "MenuP";
-            this.Text = "Menu principal";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonHighlight;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1163, 618);
+            Controls.Add(pnl_titre);
+            Controls.Add(lbl_titreMenu);
+            Controls.Add(pnl_affichage);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
+            Name = "MenuP";
+            Text = "Menu principal";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -125,8 +124,8 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
-        private Panel pnl_affichage;
         private Label lbl_titreMenu;
         private Panel pnl_titre;
+        public Panel pnl_affichage;
     }
 }

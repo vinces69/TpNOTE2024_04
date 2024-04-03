@@ -35,7 +35,7 @@ namespace TpNOTE2024_04
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            SousF.openChildForm(new ListesGroupes());
+            SousF.openChildForm(new ListesArtistes());
         }
     }
 }

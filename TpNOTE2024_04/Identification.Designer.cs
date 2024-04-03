@@ -28,93 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_valid = new System.Windows.Forms.Button();
-            this.txt_mdp = new System.Windows.Forms.TextBox();
-            this.txt_login = new System.Windows.Forms.TextBox();
-            this.btn_quitter = new System.Windows.Forms.Button();
-            this.lbl_inscription = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            btn_valid = new Button();
+            txt_mdp = new TextBox();
+            txt_login = new TextBox();
+            btn_quitter = new Button();
+            lbl_inscription = new Label();
+            label1 = new Label();
+            SuspendLayout();
             // 
             // btn_valid
             // 
-            this.btn_valid.Location = new System.Drawing.Point(181, 215);
-            this.btn_valid.Name = "btn_valid";
-            this.btn_valid.Size = new System.Drawing.Size(75, 23);
-            this.btn_valid.TabIndex = 3;
-            this.btn_valid.Text = "Valider";
-            this.btn_valid.UseVisualStyleBackColor = true;
-            this.btn_valid.Click += new System.EventHandler(this.btn_valid_Click);
+            btn_valid.Location = new Point(181, 215);
+            btn_valid.Name = "btn_valid";
+            btn_valid.Size = new Size(75, 23);
+            btn_valid.TabIndex = 3;
+            btn_valid.Text = "Valider";
+            btn_valid.UseVisualStyleBackColor = true;
+            btn_valid.Click += btn_valid_Click;
             // 
             // txt_mdp
             // 
-            this.txt_mdp.Location = new System.Drawing.Point(181, 164);
-            this.txt_mdp.Name = "txt_mdp";
-            this.txt_mdp.PlaceholderText = "Mot de passe";
-            this.txt_mdp.Size = new System.Drawing.Size(257, 23);
-            this.txt_mdp.TabIndex = 2;
+            txt_mdp.Location = new Point(181, 164);
+            txt_mdp.Name = "txt_mdp";
+            txt_mdp.PlaceholderText = "Mot de passe";
+            txt_mdp.Size = new Size(257, 23);
+            txt_mdp.TabIndex = 2;
             // 
             // txt_login
             // 
-            this.txt_login.Location = new System.Drawing.Point(181, 101);
-            this.txt_login.Name = "txt_login";
-            this.txt_login.PlaceholderText = "Login";
-            this.txt_login.Size = new System.Drawing.Size(257, 23);
-            this.txt_login.TabIndex = 1;
+            txt_login.Location = new Point(181, 101);
+            txt_login.Name = "txt_login";
+            txt_login.PlaceholderText = "Login";
+            txt_login.Size = new Size(257, 23);
+            txt_login.TabIndex = 1;
             // 
             // btn_quitter
             // 
-            this.btn_quitter.Location = new System.Drawing.Point(363, 215);
-            this.btn_quitter.Name = "btn_quitter";
-            this.btn_quitter.Size = new System.Drawing.Size(75, 23);
-            this.btn_quitter.TabIndex = 9;
-            this.btn_quitter.Text = "Quitter";
-            this.btn_quitter.UseVisualStyleBackColor = true;
+            btn_quitter.Location = new Point(363, 215);
+            btn_quitter.Name = "btn_quitter";
+            btn_quitter.Size = new Size(75, 23);
+            btn_quitter.TabIndex = 9;
+            btn_quitter.Text = "Quitter";
+            btn_quitter.UseVisualStyleBackColor = true;
+            btn_quitter.Click += btn_quitter_Click_1;
             // 
             // lbl_inscription
             // 
-            this.lbl_inscription.AutoSize = true;
-            this.lbl_inscription.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_inscription.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lbl_inscription.Location = new System.Drawing.Point(488, 252);
-            this.lbl_inscription.Name = "lbl_inscription";
-            this.lbl_inscription.Size = new System.Drawing.Size(53, 15);
-            this.lbl_inscription.TabIndex = 10;
-            this.lbl_inscription.Text = "s\'inscrire";
-            this.lbl_inscription.Click += new System.EventHandler(this.lbl_inscription_Click);
+            lbl_inscription.AutoSize = true;
+            lbl_inscription.BackColor = Color.Transparent;
+            lbl_inscription.Font = new Font("Segoe UI", 11F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            lbl_inscription.ForeColor = SystemColors.Desktop;
+            lbl_inscription.Location = new Point(468, 286);
+            lbl_inscription.Name = "lbl_inscription";
+            lbl_inscription.Size = new Size(71, 20);
+            lbl_inscription.TabIndex = 10;
+            lbl_inscription.Text = "s'inscrire";
+            lbl_inscription.Click += lbl_inscription_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(254, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 27);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Connexion";
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.BorderStyle = BorderStyle.FixedSingle;
+            label1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.Desktop;
+            label1.Location = new Point(254, 44);
+            label1.Name = "label1";
+            label1.Size = new Size(105, 27);
+            label1.TabIndex = 11;
+            label1.Text = "Connexion";
             // 
             // Identification
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGreen;
-            this.BackgroundImage = global::TpNOTE2024_04.Properties.Resources.FondEcran;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(584, 338);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lbl_inscription);
-            this.Controls.Add(this.btn_quitter);
-            this.Controls.Add(this.btn_valid);
-            this.Controls.Add(this.txt_mdp);
-            this.Controls.Add(this.txt_login);
-            this.Name = "Identification";
-            this.Text = "Login";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Firebrick;
+            BackgroundImage = Properties.Resources.ImageFondPrincipale;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(584, 338);
+            Controls.Add(label1);
+            Controls.Add(lbl_inscription);
+            Controls.Add(btn_quitter);
+            Controls.Add(btn_valid);
+            Controls.Add(txt_mdp);
+            Controls.Add(txt_login);
+            Name = "Identification";
+            Text = "Login";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

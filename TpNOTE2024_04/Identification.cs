@@ -36,11 +36,11 @@ namespace TpNOTE2024_04
                     MessageBox.Show("Champs vide", "Erreur de saisie", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                     txt_login.Focus();
                 }
-                if(txt_mdp.Text == "")
+                if (txt_mdp.Text == "")
                 {
                     MessageBox.Show("Champs vide", "Erreur de saisie", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                     if (txt_login.Text != "")
-                    txt_login.Focus();
+                        txt_login.Focus();
                 }
             }
             else
@@ -51,6 +51,9 @@ namespace TpNOTE2024_04
             }
         }
 
-       
+        private void btn_quitter_Click_1(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

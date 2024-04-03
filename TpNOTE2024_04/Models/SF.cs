@@ -9,14 +9,19 @@ namespace PenduV2.Model
 {
     public class SF
     {
+        #region Attributs
         public Panel PanelSousFormlaire;
         public Form activeForm = null;
+        #endregion
 
+        #region Constructeur
         public SF(Panel panelenvoit)
         {
             PanelSousFormlaire = panelenvoit;
         }
+        #endregion
 
+        #region Méthodes
         public void openChildForm(Form formEnfant)
         {
             if (activeForm != null)
@@ -31,5 +36,6 @@ namespace PenduV2.Model
             formEnfant.BringToFront();
             formEnfant.Show();
         }
+        #endregion
     }
 }
