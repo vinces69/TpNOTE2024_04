@@ -38,17 +38,3 @@ Dans ce projet est stocké :
 
 
 
-
-
-
-
-
-
-Seul la partie Liste des artistes est fonctionnel en totalité.
-Les fonctions dans cette partie sont :
-- Affichage des données
-- Filtrage des données en fonction de l'artiste
-- Ajout
-- Modification
-- Sppression
-
